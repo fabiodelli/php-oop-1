@@ -18,15 +18,17 @@
 
     <div class="list_container">
         <div class="film_list">
-            <h1 class="title">Lista di Film</h1>
+            <h1 class="title">Film list</h1>
             <?php require_once 'db.php'; ?>
             <ul class="ul" >
                 <?php foreach ($movies as $movie): ?>
                     <li class="li">
                         <strong>Titolo:</strong>
                         <?php echo $movie->getTitle(); ?><br>
+
                         <strong>Genere:</strong>
-                        <?php echo $movie->getGenre(); ?><br>
+                        <?php echo $movie->getGenere(); ?><br>
+
                         <strong>Durata:</strong>
                         <?php echo $movie->getDuration(); ?> <span> minuti</span>
                     </li>
@@ -43,3 +45,5 @@
 </body>
 
 </html>
+
+implode(array $array): string

@@ -10,6 +10,7 @@
             background: #079797;
             width: 300px;
             border-radius: 10px;
+            padding: 1rem;
             .title{
                 background: white;
                 color: blue;
@@ -20,8 +21,15 @@
                 padding: 0.5rem 1rem;
                 
             }
-            .li{
-                margin-bottom: 1rem;
+            .ul{               
+                padding-left: 0;
+                .li{
+                    margin-bottom: 1rem;
+                    border: 1px solid black;
+                    list-style: none;
+                    border-radius: 10px;
+                    padding: 1rem;
+                }
             }
         }
     }

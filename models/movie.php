@@ -2,13 +2,13 @@
 class Movie
 {
     private $title;
-    private $genre;
+    private $genere;
     private $duration;
 
-    public function __construct($title, $genre, $duration)
+    public function __construct($title, $genere, $duration)
     {
         $this->title = $title;
-        $this->genre = $genre;
+        $this->genere = $genere;
         $this->duration = $duration;
     }
 
@@ -17,9 +17,9 @@ class Movie
         return $this->title;
     }
 
-    public function getGenre()
+    public function getGenere()
     {
-        return $this->genre;
+        return $this->genere;
     }
 
     public function getDuration()
