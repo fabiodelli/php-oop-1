@@ -1,0 +1,28 @@
+.body {
+    background: cornflowerblue;
+    .list_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .film_list {
+            color: white;
+            background: #079797;
+            width: 300px;
+            border-radius: 10px;
+            .title{
+                background: white;
+                color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                padding: 0.5rem 1rem;
+                
+            }
+            .li{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
