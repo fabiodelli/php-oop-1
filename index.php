@@ -1,7 +1,3 @@
-<?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +20,7 @@ error_reporting(E_ALL);
     <div class="list_container">
         <div class="film_list">
             <h1 class="title">Film list</h1>
-            <?php require_once 'db.php'; ?>
+            <?php require __DIR__ . 'db.php'; ?>
             <ul class="ul" >
                 <?php foreach ($movies as $movie): ?>
                     <li class="li">
@@ -49,5 +45,3 @@ error_reporting(E_ALL);
 </body>
 
 </html>
-
-implode(array $array): string
