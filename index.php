@@ -20,7 +20,7 @@
     <div class="list_container">
         <div class="film_list">
             <h1 class="title">Film list</h1>
-            <?php require __DIR__ . 'db.php'; ?>
+            <?php require __DIR__ . '/db.php'; ?>
             <ul class="ul" >
                 <?php foreach ($movies as $movie): ?>
                     <li class="li">

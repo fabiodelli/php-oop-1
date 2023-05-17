@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . 'models/Movie.php';
+require __DIR__ . '/models/Movie.php';
 
 $movies = [
     new Movie("Il Signore degli Anelli", ["Fantasy"], "196"),
